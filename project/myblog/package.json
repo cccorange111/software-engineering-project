@@ -1,0 +1,48 @@
+{
+  "name": "myblog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.1",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-react": "^1.0.6",
+    "antd": "^5.15.2",
+    "axios": "^1.6.8",
+    "http-proxy-middleware": "^3.0.0",
+    "md-editor-rt": "^4.12.4",
+    "node": "^21.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-redux": "^9.1.0",
+    "react-responsive": "^10.0.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "redux": "^5.0.1",
+    "reset-css": "^5.0.2",
+    "sanitize-html": "^2.13.0",
+    "sass": "^1.71.1",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
