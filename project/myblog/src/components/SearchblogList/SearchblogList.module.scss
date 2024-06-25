@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-self: center;
+
+    align-items: center;
+
+    .title {
+        margin-top: 50px;
+        width: 80%;
+        height: 80%;
+
+        .card {
+            overflow: 'hidden';
+            min-height: 50px;
+
+        }
+
+        .button {
+            margin-right: 10px;
+        }
+    }
+
+    .pagination {
+        height: 100px;
+    }
+}
